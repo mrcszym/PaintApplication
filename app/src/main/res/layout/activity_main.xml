@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/toolbar">
+
+        <include layout="@layout/paint_view" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        android:background="@drawable/toolbar_background"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/violetColor"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/violet_background" />
+        <ImageButton
+            android:id="@+id/pinkColor"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/pink_background" />
+        <ImageButton
+            android:id="@+id/navyColor"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/navy_background" />
+        <ImageButton
+            android:id="@+id/blackColor"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/black_background" />
+        <Button
+            android:id="@+id/sponge"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/white_background"
+            android:textColor="@color/white"
+            android:text="@string/x"/>
+    </LinearLayout>
+
+</RelativeLayout>

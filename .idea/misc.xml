@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Szymon/Desktop/PaintApplication/app/src/main/res/drawable/black_background.xml" value="0.241" />
+        <entry key="..\:/Users/Szymon/Desktop/PaintApplication/app/src/main/res/drawable/navy_background.xml" value="0.241" />
+        <entry key="..\:/Users/Szymon/Desktop/PaintApplication/app/src/main/res/drawable/pink_background.xml" value="0.241" />
+        <entry key="..\:/Users/Szymon/Desktop/PaintApplication/app/src/main/res/drawable/toolbar_background.xml" value="0.241" />
+        <entry key="..\:/Users/Szymon/Desktop/PaintApplication/app/src/main/res/drawable/violet_background.xml" value="0.241" />
+        <entry key="..\:/Users/Szymon/Desktop/PaintApplication/app/src/main/res/drawable/white_background.xml" value="0.241" />
+        <entry key="..\:/Users/Szymon/Desktop/PaintApplication/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Szymon/Desktop/PaintApplication/app/src/main/res/layout/paint_view.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
